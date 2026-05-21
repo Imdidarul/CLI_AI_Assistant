@@ -50,7 +50,7 @@ mock\_events.json
 
 &#x20;       ↓
 
-cliMine.py
+cli.py
 
 &#x20;       ↓
 
@@ -62,7 +62,7 @@ router.py
 
 &#x20;       ↓
 
-storageMine.py
+storage.py
 
 &#x20;       ↓
 
@@ -230,7 +230,7 @@ create mock\_events.json
 
 Example:-
 
-python cliMine.py
+python cli.py
 
 
 
@@ -246,7 +246,7 @@ Processes events and stores extracted memories.
 
 Example:-
 
-python cliMine.py search "Stripe"
+python cli.py search "Stripe"
 
 
 
@@ -284,7 +284,7 @@ Example Output:-
 
 Example:-
 
-python cliMine.py delete-before "2026-05-19T11:00:00Z"
+python cli.py delete-before "2026-05-19T11:00:00Z"
 
 
 
@@ -300,7 +300,7 @@ Deletes all memories and raw event data from the database before the given times
 
 Example:-
 
-python cliMine.py delete-after "2026-05-19T11:00:00Z"
+python cli.py delete-after "2026-05-19T11:00:00Z"
 
 
 
@@ -316,7 +316,7 @@ Deletes all memories and raw event data from the database after the given timest
 
 Example:-
 
-python cliMine.py wipe-all
+python cli.py wipe-all
 
 
 
